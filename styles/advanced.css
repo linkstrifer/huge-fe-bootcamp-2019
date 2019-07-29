@@ -1,0 +1,70 @@
+@keyframes change-size {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1);
+  }
+  26% {
+    transform: scale(0.8);
+  }
+  28% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  55% {
+    transform: scale(1);
+  }
+  56% {
+    transform: scale(0.8);
+  }
+  58% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(1);
+  }
+  86% {
+    transform: scale(0.8);
+  }
+  88% {
+    transform: scale(1.1);
+  }
+  90% {
+    transform: scale(1);
+  }
+}
+
+@keyframes change-colors {
+  26% {
+    color: black;
+  }
+  28% {
+    color: red;
+  }
+  55% {
+    color: red;
+  }
+  56% {
+    color: blue;
+  }
+  85% {
+    color: blue;
+  }
+  86% {
+    color: black;
+  }
+}
+
+.animate {
+  animation: change-size 5s infinite, change-colors 5s infinite;
+  display: block;
+  font-family: serif;
+  font-size: 200px;
+  text-align: center;
+}
