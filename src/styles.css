@@ -1,0 +1,15 @@
+@keyframes pulse {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: purple;
+  }
+}
+
+.box {
+  animation: pulse infinite 1s;
+  background-color: red;
+  height: 400px;
+  width: 500px;
+}
